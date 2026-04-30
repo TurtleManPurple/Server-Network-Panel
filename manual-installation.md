@@ -1,9 +1,3 @@
-# Your Options
-1. Use ServerNetworkPanel-Setup.exe
-2. Manual Installation
-
----
-
 ## Manual Installation
 1. Go to [the manual install branch](https://github.com/TurtleManPurple/Server-Network-Panel/tree/manual-installation)
 2. Download `ServerNetworkPanel.java`, `build_panel.bat`, `compile_panel.bat`, `run_panel.bat`, and `config.properties`
