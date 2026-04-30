@@ -12,4 +12,4 @@
 5. Run `compile_panel.bat`
 6. Run `build_panel.bat`
 
-# You have now successfully installed the panel! To run it, run `run_panel.bat`
+## You have now successfully installed the panel! To run it, run `run_panel.bat`
