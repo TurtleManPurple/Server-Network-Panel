@@ -49,11 +49,11 @@ Background monitoring checks server status periodically
 ---
 
 # ⚠️ Notes
-You **DO NOT** need Java installed, it is bundled
-This panel does **NOT** include Minecraft server files
-Users must provide their own server jars and worlds
-Designed for local or private hosting environments
-No remote access or authentication system included
+- You **DO NOT** need Java installed, it is bundled
+- This panel does **NOT** include Minecraft server files
+- Users must provide their own server jars and worlds
+- Designed for local or private hosting environments
+- No remote access or authentication system included
 
 ---
 
