@@ -54,6 +54,7 @@ Background monitoring checks server status periodically
 - Users must provide their own server jars and worlds
 - Designed for local or private hosting environments
 - No remote access or authentication system included
+- To install, either download and run `ServerNetworkPanel-Setup.exe` **OR** go to [the manual install branch](https://github.com/TurtleManPurple/Server-Network-Panel/tree/manual-installation) and follow the instructions
 
 ---
 
