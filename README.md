@@ -24,13 +24,19 @@ All servers are defined in 'config.properties':
 ```properties
 panel.name=TMP-Network Panel
 
-server.Hub=Hub,paper.jar,25565
-server.PVP=PVP,paper.jar,25566
-server.SMP=SMP,paper.jar,25567
-server.Creative=Creative,paper.jar,25568
-server.Freeop=Freeop,paper.jar,25569
-Format
-server.<name>=<folder>,<jar>,<port>
+# Format:
+# server.<name>=<folder>,<jar>,<port>
+
+server.Hub=Hub,paper.jar,25566
+server.PVP=PVP,paper.jar,25567
+server.SMP=SMP,paper.jar,25568
+server.Creative=Creative,paper.jar,25569
+server.Freeop=Freeop,paper.jar,25570
+server.Proxy=.,velocity.jar,25565
+
+# Memory settings
+ram.min=1G
+ram.max=2G
 ```
 # 🧠 How It Works
 The panel reads config.properties
@@ -40,14 +46,21 @@ Console output is streamed into the UI in real time
 Commands are sent directly to the server process input
 Background monitoring checks server status periodically
 
+---
+
 # ⚠️ Notes
-This panel does NOT include Minecraft server files
+You **DO NOT** need Java installed, it is bundled
+This panel does **NOT** include Minecraft server files
 Users must provide their own server jars and worlds
 Designed for local or private hosting environments
 No remote access or authentication system included
 
+---
+
 # 📜 License
 This project is intended for personal and educational use. You are free to modify and expand it.
+
+---
 
 # 👤 Author
 TMP-Network
