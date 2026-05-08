@@ -14,32 +14,27 @@ A lightweight desktop control panel for managing multiple Minecraft servers from
 - Config-driven server system (no hardcoding required)
 - Supports multiple Paper-based servers
 - Lightweight Swing GUI
+- Now coded in Python (5/7/2026)
 
 ---
 
 ## ⚙️ Configuration
 
-All servers are defined in 'config.properties':
+All servers are defined in 'config.json':
 
-```properties
-panel.name=TMP-Network Panel
-
-# Format:
-# server.<name>=<folder>,<jar>,<port>
-
-server.Hub=Hub,paper.jar,25566
-server.PVP=PVP,paper.jar,25567
-server.SMP=SMP,paper.jar,25568
-server.Creative=Creative,paper.jar,25569
-server.Freeop=Freeop,paper.jar,25570
-server.Proxy=.,velocity.jar,25565
-
-# Memory settings
-ram.min=1G
-ram.max=2G
+```JSON
+{
+"servers": {
+    "<name>": {
+      "folder": "<folder name (CASE SENSATIVE)>",
+      "jar": "<Jar name>"
+    }
+    }
+  }
+}
 ```
 # 🧠 How It Works
-The panel reads config.properties
+The panel reads config.json
 Each server is loaded into its own tab
 Each server runs as a separate Java process
 Console output is streamed into the UI in real time
@@ -49,12 +44,12 @@ Background monitoring checks server status periodically
 ---
 
 # ⚠️ Notes
-- You **DO NOT** need Java installed, it is bundled
+- You **NEED** need Python installed
 - This panel does **NOT** include Minecraft server files
 - Users must provide their own server jars and worlds
 - Designed for local or private hosting environments
 - No remote access or authentication system included
-- To install, either download and run `ServerNetworkPanel-Setup.exe` **OR** go to [the manual install branch](https://github.com/TurtleManPurple/Server-Network-Panel/tree/manual-installation) and follow the instructions
+- To install follow the instructions in `installation-guide.txt`
 
 ---
 
