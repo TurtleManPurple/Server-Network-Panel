@@ -31,7 +31,6 @@ All servers are defined in 'config.json':
     }
     }
   }
-}
 ```
 # 🧠 How It Works
 The panel reads config.json
