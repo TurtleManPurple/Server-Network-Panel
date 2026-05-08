@@ -1,0 +1,16 @@
+INSTALLATION GUIDE
+
+1. Download Python at www.python.org/downloads/
+2. Download main_DESKTOP.py
+3. Create a config.json
+4. Fill out the config.json using the following format
+    "panel_name": "<name>",
+    {
+    "servers": {
+        "<name>": {
+            "folder": "<folder name (CASE SENSITIVE)>",
+            "jar": "<JAR name>"
+            }
+        }
+    }
+5. Run main_DESKTOP.py
