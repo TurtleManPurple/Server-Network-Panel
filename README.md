@@ -26,11 +26,11 @@ All servers are defined in 'config.json':
 {
 "servers": {
     "<name>": {
-      "folder": "<folder name (CASE SENSATIVE)>",
-      "jar": "<Jar name>"
+        "folder": "<folder name (CASE SENSATIVE)>",
+        "jar": "<Jar name>"
+        }
     }
-    }
-  }
+}
 ```
 # 🧠 How It Works
 The panel reads config.json
