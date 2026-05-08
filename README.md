@@ -22,7 +22,7 @@ A lightweight desktop control panel for managing multiple Minecraft servers from
 
 All servers are defined in 'config.json':
 
-```JSON
+```json
 {
 "servers": {
     "<name>": {
